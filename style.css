@@ -1,0 +1,615 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1, h2{
+  padding: 0;
+  margin:0;
+}
+
+nav{
+  margin-top:-100px;
+  position:fixed;
+  width:100%;
+  height: 100px;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+  background-color: rgba(0,0,0,1);
+
+  display:flex;
+
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  z-index:3;
+}
+
+.spatiu-s{
+  background-color: rgba(0,0,0,1);
+  width:45%;
+  height:100%;
+  float:left;
+  z-index:2;
+
+
+
+  padding-left:5%;
+}
+
+.img{
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10%;
+  height: 98%;
+
+  max-width: 10%;
+  max-height: 98%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  margin-top:100px;
+  width: 100%;
+  min-height:500px;
+
+  background-image: url('cali2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  color: white;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.text{
+  width:30%;
+  height:40%;
+  text-align: center;
+}
+
+h1{
+  font-size:2.5em;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.spatiu-d
+{
+  background-color: rgba(0,0,0,1);
+  width:10%;
+  height:100%;
+  float:left;
+  z-index:2;
+}
+
+.buton
+{
+  background-color: rgba(0,0,0,1);
+  width:10%;
+  height:100%;
+  float:left;
+  font-size: 90%;
+  font-weight: 800px;
+  text-align: center;
+  z-index:2;
+  color: rgba(165, 165, 165,1);
+
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}
+
+.btn{
+  margin:auto;
+  padding:0;
+
+  width:115px;
+  height:40px;
+
+  max-width: 115px;
+  max-height: 40px;
+
+  border:2px solid white;
+  display:flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  background-color: rgba(255,255,255,0.2);
+  border:0px;
+  width:117px;
+  height:42px;
+
+  max-width: 117px;
+  max-height: 42px;
+
+  transition: all 0.1s ease-in;
+  border-radius: 4px;
+}
+
+.buton p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buton:hover{
+  color: rgba(130, 130, 130, 1);
+  transition: color 0.5s;
+}
+
+a{
+  margin:0;
+  padding:0;
+}
+
+a:link {
+  color: inherit;
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.prezentare{
+
+  width:100%;
+  height:37%;
+
+  padding-top:5%;
+
+  display:flex;
+
+  justify-content: center;
+
+  color:white;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+
+  font-size:1.3em;
+
+  margin-bottom: 20px;
+}
+
+.text2{
+  margin-left:10px;
+  width:25%;
+  height:100%;
+
+  display:table-cell;
+  text-align:left;
+
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.programe{
+  width:100%;
+  height:26.5%;
+
+  background-image:url('superman.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 110%;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+  align-items: center;
+}
+
+.program{
+    width:20%;
+    border: 1px solid rgba(165, 165, 165,1);
+
+    color:white;
+
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.programTop{
+  text-align:center;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(165, 165, 165,1);
+  width:100%;
+  height:30%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.programTop2{
+  text-align:center;
+  font-weight: 600;
+  border-bottom: 1px solid rgb(165, 165, 165,1);
+  width:100%;
+  height:30%;
+  background-color: rgba(53, 196, 24,1);
+}
+
+.programContent{
+
+  width:100%;
+  height:70%;
+
+  background-color: rgba(0,0,0,0.7);
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.programContent ul{
+  list-style-type: none;
+}
+
+.programContent li{
+  margin-top:5px;
+}
+
+.programContent li::before{
+  content: "• ";
+  color:rgba(0, 143, 183, 1);
+}
+
+.btnProgram{
+  width:100px;
+  height:30px;
+
+  border:2px solid white;
+  border-radius:5px;
+
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  text-align:center;
+}
+
+
+.btnProgram:hover{
+  width:102px;
+  height:32px;
+  border-radius:5px;
+
+  border:0;
+
+  background-color: rgba(255,255,255,0.1);
+
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  text-align:center;
+}
+
+@media screen and (min-width:769px) and (max-width: 1280px)
+{
+
+  nav{
+  margin-top:-100px;
+  position:fixed;
+  width:100%;
+  height: 100px;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+  background-color: rgba(0,0,0,1);
+
+  display:flex;
+
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  z-index:3;
+}
+
+.prezentare{
+  
+    width:100%;
+    height:37%;
+  
+    padding-top:5%;
+  
+    display:flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  
+    color:white;
+  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  
+    font-size:1.3em;
+  }
+
+  .text2{
+    
+      margin-left:20px;
+      width:80%;
+      height:100%;
+
+      font-size:0.8em;
+      
+      text-align: justify;
+      text-justify: inter-word;
+
+      font-weight:400;
+
+      overflow:auto;
+
+      padding-bottom:30px;
+    }
+
+    .programe{
+      width:100%;
+      height:120%;
+  
+    
+      background-image:url('superman.png');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: 110%;
+    
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: flex-end;
+      align-items: center;
+    }
+  
+    .program{
+      
+          max-width:50%;
+          min-width:250px;
+  
+          border: 1px solid rgba(165, 165, 165,1);
+      
+          color:white;
+      
+          font-family: 'Open Sans', sans-serif;
+  
+          margin-top:30px;
+          
+      }
+
+.spatiu-s
+{
+  display:none;
+}
+
+.img{
+ display:none; 
+}
+
+.spatiu-d{
+  display:none;
+}
+
+header{
+  margin-top:100px;
+  width: 100%;
+  min-height:500px;
+
+  background-image: url('cali2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  color: white;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.text{
+  width:50%;
+  height:60%;
+  text-align: center;
+}
+
+    iframe{
+      width:600px;
+      height:400px;
+    }
+  
+}
+
+@media screen and (max-width: 768px)
+{
+
+  .programe{
+    width:100%;
+    height:120%;
+
+  
+    background-image:url('superman.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 110%;
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+  }
+
+  .program{
+    
+        max-width:50%;
+        min-width:250px;
+
+        border: 1px solid rgba(165, 165, 165,1);
+    
+        color:white;
+    
+        font-family: 'Open Sans', sans-serif;
+
+        margin-top:30px;
+        
+    }
+
+    .prezentare{
+      
+        width:100%;
+        height:37%;
+      
+        padding-top:5%;
+      
+        display:flex;
+        flex-direction: column;
+      
+        justify-content: center;
+      
+        color:white;
+      
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+      
+        font-size:1.3em;
+      }
+
+      .text2{
+        
+          width:90%;
+          height:100%;
+  
+          font-size:0.8em;
+          
+          text-align: justify;
+          text-justify: inter-word;
+  
+          font-weight:400;
+
+          overflow:auto;
+        }
+
+        iframe{
+          width:320px;
+          height:300px;
+
+          
+        }
+
+        .prezentare{
+          
+            width:100%;
+            height:37%;
+          
+            padding-top:5%;
+          
+            display:flex;
+          
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+          
+            color:white;
+          
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+          
+            font-size:1.3em;
+          }
+
+          .spatiu-s
+          {
+            display:none;          
+          }
+
+          .spatiu-d
+          {
+            display:none;
+          }
+
+          nav{
+            margin:0;
+            padding:0;
+            width:100%;
+            position:static;
+
+            min-height:100px;
+
+            display:flex;
+            background-color: rgba(0,0,0,1);
+
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+
+            font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;          
+          }
+          
+          .buton
+          {
+            padding-top:5px;
+
+            width:100%;
+          
+            background-color: rgba(0,0,0,1);
+            width:10%;
+            height:100%;
+            font-size: 90%;
+            font-weight: 800px;
+            text-align: center;
+            z-index:2;
+            color: rgba(165, 165, 165,1);
+          }
+
+          header{
+
+
+            width: 100%;
+            height:20%;
+            background-image: url('cali2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+            color: white;
+          
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+          }
+}
